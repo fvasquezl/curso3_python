@@ -12,5 +12,5 @@ def generate_pie_chart(labels,values):
     ax.pie(values, labels=labels)
     ax.axis('equal')
     plt.xticks(rotation=20)
-    plt.savefig('./img/pie.png')
+    plt.savefig('./img/chart_pie.png')
     plt.close() 
